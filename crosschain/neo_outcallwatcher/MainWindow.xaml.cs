@@ -28,7 +28,7 @@ namespace neo_outcallwatcher
             InitializeComponent();
         }
 
-        static string url = "http://27.115.95.118:20332";
+        static string url = "http://xxxxx:xxxx";
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -111,7 +111,7 @@ namespace neo_outcallwatcher
         private void SendReturn(string txid, ReturnInfo ret)
         {
             //L2CmHCqgeNHL1i9XFhTLzUXsdr5LGjag4d56YY98FqEi4j5d83Mv
-            var prikey = ThinNeo.Helper.GetPrivateKeyFromWIF("L1WHHa4zmudqzRTYQiF4wbw9duiqEvcz7QY93GG1rzvCVxFVSDud");
+            var prikey = ThinNeo.Helper.GetPrivateKeyFromWIF("");
             var pubkey = ThinNeo.Helper.GetPublicKeyFromPrivateKey(prikey);
             var scripthash = ThinNeo.Helper.GetScriptHashFromPublicKey(pubkey);
             var addres = ThinNeo.Helper.GetAddressFromScriptHash(scripthash);

@@ -30,7 +30,7 @@ namespace neo_outcaller
             methodList.Add("multiply");
             this.methodCombox.ItemsSource = methodList;
         }
-        static string url = "http://27.115.95.118:20332";
+        static string url = "http://xxxx:xxxx";
         [ThreadStatic]
         static System.Net.WebClient wc = new System.Net.WebClient();
         static int _getCount()
@@ -100,7 +100,7 @@ namespace neo_outcaller
         Random r = new Random();
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var prikey = ThinNeo.Helper.GetPrivateKeyFromWIF("L1WHHa4zmudqzRTYQiF4wbw9duiqEvcz7QY93GG1rzvCVxFVSDud");
+            var prikey = ThinNeo.Helper.GetPrivateKeyFromWIF("");
             var pubkey = ThinNeo.Helper.GetPublicKeyFromPrivateKey(prikey);
             var scripthash = ThinNeo.Helper.GetScriptHashFromPublicKey(pubkey);
             var addres = ThinNeo.Helper.GetAddressFromScriptHash(scripthash);

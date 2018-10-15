@@ -37,7 +37,7 @@ namespace lib_neo_outcall_s
     }
     public class watcher
     {
-        static string url = "http://27.115.95.118:20332";
+        static string url = "http://xxxxxx:xxxx";
         static System.Net.WebClient wc = new System.Net.WebClient();
         static int _getCount()
         {
