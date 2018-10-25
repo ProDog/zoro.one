@@ -1,5 +1,8 @@
  # Zoro
+
+[![Join the chat at https://gitter.im/zoro-one/Lobby](https://badges.gitter.im/zoro-one/Lobby.svg)](https://gitter.im/zoro-one/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Zoro is a High speed side chain of NEO.
 
-Zoro.one ÊÇZoroµÄµÚÒ»²½¡£
-ÒÔ¼áÊµµÄ×÷·ç£¬Ò»µãµã´î½¨ÆğÒ»¸öÇø¿éÁ´ÏµÍ³¡£
+Zoro.one æ˜¯Zoroçš„ç¬¬ä¸€æ­¥ã€‚
+ä»¥åšå®çš„ä½œé£ï¼Œä¸€ç‚¹ç‚¹æ­å»ºèµ·ä¸€ä¸ªåŒºå—é“¾ç³»ç»Ÿã€‚
